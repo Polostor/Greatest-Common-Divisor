@@ -27,7 +27,7 @@ public class ReducingFraction {
         return createString(divisor, divider, reduction);
     }
 
-    public static String createString(int divisor, int divider, int reduction) {
+    private static String createString(int divisor, int divider, int reduction) {
         StringBuilder sb = new StringBuilder();
         sb.append(divisor / reduction);
         sb.append("/");
